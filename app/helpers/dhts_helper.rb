@@ -1,0 +1,2 @@
+module DhtsHelper
+end

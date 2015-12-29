@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Chipid:</strong>
+  <%= @dht.chipid %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @dht.location %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @dht.description %>
+</p>
+
+<p>
+  <strong>Temperature:</strong>
+  <%= @dht.temperature %>
+</p>
+
+<p>
+  <strong>Humidity:</strong>
+  <%= @dht.humidity %>
+</p>
+
+<p>
+  <strong>Heat Index:</strong>
+  <%= @dht.heat_index %>
+</p>
+
+<%= link_to 'Edit', edit_dht_path(@dht) %> |
+<%= link_to 'Back', dhts_path %>

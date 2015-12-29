@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  chipid: 1
+  location: MyString
+  description: MyText
+  temperature: 1.5
+  humidity: 1.5
+
+two:
+  chipid: 1
+  location: MyString
+  description: MyText
+  temperature: 1.5
+  humidity: 1.5
